@@ -67,4 +67,4 @@ app.put('/delete-student/:id', async(req,res)=>{
   }
 });*/
 
-app.listen(4000,()=>console.log('app listening at port 4000'));
+app.listen(port,()=>console.log('app listening'));
